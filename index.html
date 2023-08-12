@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News-Homepage-Main</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <!-- Desktop-first Media -->
+    <div class="mainContainer">
+        <!-- Nav Bar-->
+        <nav class="flexContainer_nav">
+            <img src="images/logo.svg" alt="" class="logo">
+            <button class="hamburger_menu_item" aria-controls="flexContainer_menu" aria-expanded="false">
+                <img src="images/icon-menu.svg" alt="" class="hamburger_menu">
+            </button>
+            <div class="flexContainer_menu" data-visible = "false">
+                <a href="#" class="menuItems">Home</a>
+                <a href="#" class="menuItems">New</a>
+                <a href="#" class="menuItems">Popular</a>
+                <a href="#" class="menuItems">Trending</a>
+                <a href="#" class="menuItems">Categories</a>
+            </div>
+        </nav>
+
+        <!-- Hero Section -->
+        <section id="#">
+            <!-- Grid Items -->
+            <main class="grid_container">
+                <!-- Main Testimonial-->
+                <div class="first_grid_item">
+                    <img src="images/image-web-3-desktop.jpg" alt="" class="big_image">
+                    <img src="images/image-web-3-mobile.jpg" alt="" class="second_big_image">
+                    <div class="flexContainer_inner">
+                        <div class="left_inner">
+                            <h1 >The Bright Future of Web 3.0?</h1>
+                        </div>
+                        <div class="right_inner">
+                            <p class="content">We dive into the next evolution of the web that claims to put the power of the 
+                                platforms back into the hands of the people. But is it really fulfilling its promise?
+                            </p>
+                            <a href="#" class="button">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Article-->
+                <div class="second_grid_item">
+                    <div class="flexContainer_grid_item">
+                        <h1 class="title">New</h1>
+                        <div class="inner_container">
+                            <h2 class="sub_title">Hydrogen VS Electric Cars</h2>
+                            <p class="content">Will hydrogen-fueled cars ever catch up to EVs?</p>
+                        </div>
+                        <hr/>
+                        <div class="inner_container">
+                            <h2 class="sub_title">The Downsides of AI Artistry</h2>
+                            <p class="content">What are the possible adverse effects of on-demand AI image generation?</p>
+                        </div>
+                        <hr/>
+                        <div class="inner_container">
+                            <h2 class="sub_title">Is VC Funding Drying Up?</h2>
+                            <p class="content">Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Testimonials -->
+                <div class="testimonial_container">
+                    <div class="left_item">
+                    <img src="images/image-retro-pcs.jpg" alt="" class="sub_image">
+                    </div>
+                    <div class="right_item">
+                        <h1 class="number">01</h1>
+                        <h2 class="inner_title">Reviving Retro PCs</h2>
+                        <p class="content">What happens when old PCs are given modern upgrades?</p>
+                    </div>
+                </div>
+
+                <div class="testimonial_container">
+                    <div class="left_item">
+                    <img src="images/image-top-laptops.jpg" alt="" class="sub_image">
+                    </div>
+                    <div class="right_item">
+                        <h1 class="number">02</h1>
+                        <h2 class="inner_title">Top 10 Laptops of 2022</h2>
+                        <p class="content">Our best picks for various nees and budgets.</p>
+                    </div>
+                </div>
+
+                <div class="testimonial_container">
+                    <div class="left_item">
+                    <img src="images/image-gaming-growth.jpg" alt="" class="sub_image">
+                    </div>
+                    <div class="right_item">
+                        <h1 class="number">03</h1>
+                        <h2 class="inner_title">The Growth of Gaming</h2>
+                        <p class="content">How the pandemic has sparked fresh opportunities.</p>
+                    </div>
+                </div>
+
+            </main>
+        </section>
+    </div>
+</body>
+</html>
